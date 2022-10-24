@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  /*border: 1px solid black;
+  /* text-align: center;*/
+}
+header,
+footer {
+  text-align: center;
+  padding: 20px;
+}
+body {
+  background-color: beige;
+}
+
+main {
+  background-color: azure;
+  height: 100%;
+  width: 100;
+  border: 2px solid black;
+}
+
+.first-card-closen,
+.first-card-open {
+  text-align: center;
+  margin: 100px;
+  padding: 50px;
+  background-color: white;
+  position: relative;
+  border: 1px solid black;
+}
+.bookmark {
+  position: absolute;
+  right: -2px;
+  top: -10px;
+  height: 40px;
+  width: 40px;
+}
+
+.first-card {
+  margin-bottom: 30px;
+}
+
+.second-card {
+  margin-bottom: 30px;
+}
+button {
+  margin-bottom: 30px;
+  height: 40px;
+  width: 100px;
+}
+
+.navi {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.navi a {
+  text-decoration: none;
+  color: black;
+}
