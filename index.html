@@ -9,55 +9,65 @@
     <script src="index.js"></script>
   </head>
   <body>
-    <header>
-      <h1>QUIZ APP</h1>
-    </header>
-    <main data-js="main">
-      <section class="first-card-closen">
-        <img class="bookmark" src="./assets/bookmark.png" alt="B" />
-        <p class="first-card">What proberty flips the axes in flexbox?</p>
-        <button class="button-show">Show Answer</button>
-        <p class="tags">#html #flexbox #css</p>
-      </section>
-      <section class="first-card-open">
-        <img class="bookmark" src="./assets/bookmark.png" alt="B" />
-        <p class="second-card">What proberty flips the axes in flexbox?</p>
-        <button id="button-hide" class="button-hide">Hide Answer</button>
-        <p class="" answer>flex-direction</p>
-        <p class="tags">#html #flexbox #css</p>
-      </section>
-      <section class="first-card-closen">
-        <img class="bookmark" src="./assets/bookmark.png" alt="B" />
-        <p class="first-card">What proberty flips the axes in flexbox?</p>
-        <button id="button-show" class="button-show">Show Answer</button>
-        <p class="tags">#html #flexbox #css</p>
-      </section>
-      <section class="first-card-open">
-        <img class="bookmark" src="./assets/bookmark.png" alt="B" />
-        <p class="second-card">What proberty flips the axes in flexbox?</p>
-        <button id="button-hide" class="button-hide">Hide Answer</button>
-        <p class="" answer>flex-direction</p>
-        <p class="tags">#html #flexbox #css</p>
-      </section>
-    </main>
-    <footer class="navbar">
-      <ul class="navi">
-        <li class="active_site">
-          <a href="index.html">
-            <img class="home" alt="HOME" src="./assets/blackhome.png" />
-          </a>
-        </li>
-        <li class="inactive">
-          <a href="bookmark.html">
-            <img class="bookicon" alt="BOOKMARK" src="./assets/gebookmared.png"
-          /></a>
-        </li>
-        <li class="inactive">
-          <a href="profile.html">
-            <img class="profile" alt="PROFILE" src="./assets/blackprofil.jpeg"
-          /></a>
-        </li>
-      </ul>
-    </footer>
+    <div>
+      <header>
+        <h1>QUIZ APP</h1>
+      </header>
+      <main data-js="main">
+        <section class="first-card-closen">
+          <img class="bookmark" src="./assets/bookmark.png" alt="B" />
+          <p class="first-card">What proberty flips the axes in flexbox?</p>
+          <button class="button-show">Show Answer</button>
+          <p class="tags">#html #flexbox #css</p>
+        </section>
+        <section class="first-card-open">
+          <img class="bookmark" src="./assets/bookmark.png" alt="B" />
+          <p class="second-card">What proberty flips the axes in flexbox?</p>
+          <button id="button-hide" class="button-hide" data-js="show-button">
+            Hide Answer
+          </button>
+          <p class="answer">flex-direction</p>
+          <p class="tags">#html #flexbox #css</p>
+        </section>
+        <section class="first-card-closen">
+          <img class="bookmark" src="./assets/bookmark.png" alt="B" />
+          <p class="first-card">What proberty flips the axes in flexbox?</p>
+          <button id="button-show" class="button-show">Show Answer</button>
+          <p class="tags">#html #flexbox #css</p>
+        </section>
+        <section class="first-card-open">
+          <img class="bookmark" src="./assets/bookmark.png" alt="B" />
+          <p class="second-card">What proberty flips the axes in flexbox?</p>
+          <button id="button-hide" class="button-hide">Hide Answer</button>
+          <p class="answer">flex-direction</p>
+          <p class="tags">#html #flexbox #css</p>
+        </section>
+      </main>
+      <footer class="navbar">
+        <ul class="navi">
+          <li class="active_site">
+            <a href="index.html">
+              <img class="home" alt="HOME" src="./assets/blackhome.png" />
+            </a>
+          </li>
+          <li class="inactive">
+            <a href="bookmark.html">
+              <img
+                class="bookicon"
+                alt="BOOKMARK"
+                src="./assets/gebookmared.png"
+            /></a>
+          </li>
+          <li class="inactive">
+            <a href="profile.html">
+              <img
+                class="profile"
+                alt="PROFILE"
+                src="./assets/blackprofil.jpeg"
+            /></a>
+          </li>
+        </ul>
+      </footer>
+    </div>
   </body>
 </html>
