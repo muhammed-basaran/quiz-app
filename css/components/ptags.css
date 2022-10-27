@@ -1,0 +1,13 @@
+.tags {
+  text-align: left;
+  position: absolute;
+  left: 20px;
+  bottom: 5px;
+}
+.first-card {
+  margin-bottom: 30px;
+}
+
+.second-card {
+  margin-bottom: 30px;
+}
