@@ -6,24 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz App</title>
     <link rel="stylesheet" href="./css/styles.css" />
-    <script src="index.js"></script>
+    <script src="./js/index.js" defer></script>
   </head>
   <body>
     <header>
       <h1>QUIZ APP</h1>
     </header>
     <main data-js="main">
-      <section class="first-card-closen">
+      <section class="first-card-open">
         <img class="bookmark" src="./assets/gebookmared.png" alt="B" />
-        <p class="first-card">What proberty flips the axes in flexbox?</p>
-        <button id="button-show" class="button-show">Show Answer</button>
+        <p class="second-card">What proberty flips the axes in flexbox?</p>
+        <button class="button-hide" data-js="show-button">Show Answer</button>
+        <p class="answer">flex-direction</p>
         <p class="tags">#html #flexbox #css</p>
       </section>
       <section class="first-card-open">
         <img class="bookmark" src="./assets/gebookmared.png" alt="B" />
         <p class="second-card">What proberty flips the axes in flexbox?</p>
-        <button id="button-hide" class="button-hide">Hide Answer</button>
-        <p class="" answer>flex-direction</p>
+        <button class="button-hide" data-js="show-button">Show Answer</button>
+        <p class="answer">flex-direction</p>
         <p class="tags">#html #flexbox #css</p>
       </section>
     </main>
