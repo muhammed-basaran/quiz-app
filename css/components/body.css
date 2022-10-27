@@ -1,5 +1,11 @@
 body {
-  background-color: rgb(176, 241, 231);
+  position: relative;
+  height: 100vh;
+}
+
+div {
+  position: absolute;
+  border: 1px solid black;
 }
 
 header,
@@ -9,25 +15,27 @@ footer {
   width: 450px;
   height: 50px;
   border: 4px solid black;
-  position: relative;
+  position: fixed;
+  z-index: 1;
+  background-color: aquamarine;
 }
 h1 {
   position: absolute;
   top: 5px;
   left: 160px;
 }
+header {
+  top: 0px;
+}
+
 .navbar {
-  background-color: rgb(176, 241, 231);
-  position: fixed;
-  bottom: 5px;
-  padding: 20px;
+  bottom: 2px;
 }
 .navi {
   display: flex;
   justify-content: space-around;
   align-items: center;
   list-style-type: none;
-  flex-wrap: wrap;
   position: relative;
   top: -20px;
   left: -20px;
@@ -59,13 +67,16 @@ a img {
 }
 
 main {
+  margin-top: 20px;
+  margin-bottom: 20px;
   background-color: azure;
   height: 100%;
   width: 490px;
   border: 4px solid black;
+  overflow-y: scroll;
 }
 
-main .dark {
+.dark main {
   background-color: black;
   height: 100%;
   width: 100px;
