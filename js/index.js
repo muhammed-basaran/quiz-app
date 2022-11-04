@@ -1,21 +1,21 @@
 //Show Answer:
 
-const showButton = document.querySelector("[data-js=show-button]");
+function buttonText() {
+  if ((item.classList = "hidden")) {
+    item.innerText = "Show Answer";
+  }
+}
+
+const showButton = document.querySelector('[data-js="show-button"]');
 
 showButton.addEventListener("click", () => {
-  document.getElementsByClassName("answer")[0].style.color = "black";
+  const item = document.querySelector('[data-js="answer"]');
+
+  item.toggleAttribute("hidden");
 });
 
-// Dark Mode
+const doBookmark = document.querySelector('[data-js="card-ookmark-icon"]');
 
-const darkMode = document.querySelector("[data-js=dark]");
-
-//const mainElement = document.querySelector('[data-js="main"]');
-
-darkMode.addEventListener("click", () => {
-  document.getElementsByClassName("darkmain")[0].style.backgroundColor =
-    "black";
+doBookmark.addEventListener("click", () => {
+  doBookmark.setAttribute("src", "./assets/gebookmared.png");
 });
-
-//mainElement.classList.add('dark');//
-//});

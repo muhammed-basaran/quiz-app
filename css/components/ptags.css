@@ -1,4 +1,4 @@
-.tags {
+.card-tags {
   text-align: left;
   position: absolute;
   left: 20px;
@@ -8,6 +8,6 @@
   margin-bottom: 30px;
 }
 
-.second-card {
+.card-question {
   margin-bottom: 30px;
 }

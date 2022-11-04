@@ -1,5 +1,4 @@
-.first-card-closen,
-.first-card-open {
+.card {
   text-align: center;
   margin: 100px;
   padding: 50px;
@@ -11,6 +10,6 @@
   width: 400px;*/
 }
 
-.answer {
-  color: transparent;
+.card-answer {
+  color: black;
 }

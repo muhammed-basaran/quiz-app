@@ -9,65 +9,74 @@
     <script src="./js/index.js" defer></script>
   </head>
   <body>
-    <div>
-      <header>
-        <h1>QUIZ APP</h1>
-      </header>
-      <main data-js="main">
-        <section class="first-card-open">
-          <img class="bookmark" src="./assets/bookmark.png" alt="B" />
-          <p class="second-card">What proberty flips the axes in flexbox?</p>
-          <button class="button-hide" data-js="show-button">Show Answer</button>
-          <p class="answer">flex-direction</p>
-          <p class="tags">#html #flexbox #css</p>
-        </section>
-        <section class="first-card-open">
-          <img class="bookmark" src="./assets/bookmark.png" alt="B" />
-          <p class="second-card">What proberty flips the axes in flexbox?</p>
-          <button class="button-hide" data-js="show-button">Show Answer</button>
-          <p class="answer">flex-direction</p>
-          <p class="tags">#html #flexbox #css</p>
-        </section>
-        <section class="first-card-open">
-          <img class="bookmark" src="./assets/bookmark.png" alt="B" />
-          <p class="second-card">What proberty flips the axes in flexbox?</p>
-          <button class="button-hide" data-js="show-button">Show Answer</button>
-          <p class="answer">flex-direction</p>
-          <p class="tags">#html #flexbox #css</p>
-        </section>
-        <section class="first-card-open">
-          <img class="bookmark" src="./assets/bookmark.png" alt="B" />
-          <p class="second-card">What proberty flips the axes in flexbox?</p>
-          <button id="button-hide" class="button-hide">Hide Answer</button>
-          <p class="answer">flex-direction</p>
-          <p class="tags">#html #flexbox #css</p>
-        </section>
-      </main>
-      <footer class="navbar">
-        <ul class="navi">
-          <li class="active_site">
-            <a href="index.html">
-              <img class="home" alt="HOME" src="./assets/blackhome.png" />
-            </a>
-          </li>
-          <li class="inactive">
-            <a href="bookmark.html">
-              <img
-                class="bookicon"
-                alt="BOOKMARK"
-                src="./assets/gebookmared.png"
-            /></a>
-          </li>
-          <li class="inactive">
-            <a href="profile.html">
-              <img
-                class="profile"
-                alt="PROFILE"
-                src="./assets/blackprofil.jpeg"
-            /></a>
-          </li>
-        </ul>
-      </footer>
-    </div>
+    <header>
+      <h1>QUIZ APP</h1>
+    </header>
+    <main data-js="main">
+      <section class="card">
+        <img
+          class="bookmark"
+          src="./assets/bookmark.png"
+          alt="B"
+          data-js="card-ookmark-icon"
+        />
+        <p class="card-question">What proberty flips the axes in flexbox?</p>
+        <button class="toggle-button-show" data-js="show-button">
+          Show Answer
+        </button>
+        <p class="card-answer" data-js="answer" hidden>flex-direction</p>
+        <p class="tags">#html #flexbox #css</p>
+      </section>
+      <section class="card">
+        <img class="bookmark" src="./assets/bookmark.png" alt="B" />
+        <p class="card-question">What proberty flips the axes in flexbox?</p>
+        <button class="toggle-button-show" data-js="show-button">
+          Show Answer
+        </button>
+        <p class="card-answer" data-js="answer" hidden>flex-direction</p>
+        <p class="card-tags">#html #flexbox #css</p>
+      </section>
+      <section class="card">
+        <img
+          class="bookmark"
+          src="./assets/bookmark.png"
+          alt="B"
+          data-js="card-ookmark-icon"
+        />
+
+        <p class="card-question">What proberty flips the axes in flexbox?</p>
+        <button class="toggle-button-show" data-js="show-button">
+          Show Answer
+        </button>
+        <p class="card-answer" data-js="answer" hidden>flex-direction</p>
+        <p class="card-tags">#html #flexbox #css</p>
+      </section>
+      <section class="card">
+        <img class="bookmark" src="./assets/bookmark.png" alt="B" />
+        <p class="card-question">What proberty flips the axes in flexbox?</p>
+        <button id="toggle-button-show" class="button-hide">Hide Answer</button>
+        <p class="card-answer" data-js="answer" hidden>flex-direction</p>
+        <p class="card-tags">#html #flexbox #css</p>
+      </section>
+    </main>
+    <footer class="navbar-box">
+      <ul class="navbar-box-content">
+        <li class="active_site">
+          <a href="index.html">
+            <img class="home" alt="HOME" src="./assets/blackhome.png" />
+          </a>
+        </li>
+        <li class="inactive">
+          <a href="bookmark.html">
+            <img class="bookicon" alt="BOOKMARK" src="./assets/gebookmared.png"
+          /></a>
+        </li>
+        <li class="inactive">
+          <a href="profile.html">
+            <img class="profile" alt="PROFILE" src="./assets/blackprofil.jpeg"
+          /></a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
