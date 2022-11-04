@@ -6,34 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz App</title>
     <link rel="stylesheet" href="./css/styles.css" />
-    <script src="index.js"></script>
+    <script src="./js/profile.js"></script>
   </head>
-  <body>
+  <body class="body-profil">
     <header>
       <h1>QUIZ APP</h1>
     </header>
-    <main class="darkmain" data-js="main">
-      <section class="img">
-        <img class="imgprofile" alt="Profilbild" src="./assets/profile.png" />
-        <p class="name">MUHAMMED BASARAN</p>
+    <main data-js="main-dark">
+      <section class="profil-top">
+        <img
+          class="profil-top-image"
+          alt="Profilbild"
+          src="./assets/profile.png"
+        />
+        <p class="profil-top-name">MUHAMMED BASARAN</p>
       </section>
 
-      <section class="about-me">
-        <ul class="me">
-          <li>bla</li>
-          <li>bla</li>
+      <section class="profil-top-content">
+        <ul class="profil-top-content-me">
+          <li>29 years old</li>
+          <li>Action, Run & Jump</li>
           <li>blabla</li>
         </ul>
       </section>
       <section class="counter"></section>
 
-      <section class="settings">
+      <section class="profile-settings">
         <h2>SETTINGS</h2>
-        <button class="dark-mode" data-js="dark">DARK MODE</button>
+
+        <button class="button-dark-mode" data-js="dark-button">
+          Dark Mode
+        </button>
       </section>
     </main>
-    <footer class="navbar">
-      <ul class="navi">
+    <footer class="navbar-box">
+      <ul class="navbar-box-content">
         <li class="inactive">
           <a href="index.html">
             <img class="home" alt="HOME" src="./assets/blackhome.png" />
