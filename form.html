@@ -4,33 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quiz App</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./css/styles.css" />
-    <script src="./js/index.js" defer></script>
+    <script src="" defer></script>
   </head>
   <body>
     <header>
       <h1>QUIZ APP</h1>
     </header>
-    <main data-js="main" class="normal-body dark-body">
-      <section class="card">
-        <img class="bookmark" src="./assets/gebookmared.png" alt="B" />
-        <p class="card-question">What proberty flips the axes in flexbox?</p>
-        <button class="toggle-button-show" data-js="show-button">
-          Show Answer
-        </button>
-        <p class="card-answer">flex-direction</p>
-        <p class="card-tags">#html #flexbox #css</p>
+    <main data-js="main" class="normal-body dark-body add">
+      <section class="first-area">
+        <label class="label-your-question" for="question">Your Question:</label>
+
+        <textarea class="your-question" name="question"> jjjjjhhhhgg</textarea>
       </section>
-      <section class="card">
-        <img class="bookmark" src="./assets/gebookmared.png" alt="B" />
-        <p class="card-question">What proberty flips the axes in flexbox?</p>
-        <button class="toggle-button-show" data-js="show-button">
-          Show Answer
-        </button>
-        <p class="card-answer">flex-direction</p>
-        <p class="card-tags">#html #flexbox #css</p>
+      <section class="second-area">
+        <label class="label-your-answer" for="yanswer">Your Answer:</label>
+        <textarea class="your-answer" name="yanswer">jfgghjjgkgf</textarea>
       </section>
+      <section class="third-area">
+        <input type="text" class="input-text" />
+      </section>
+
+      <button class="submit-button" type="submit">Submit</button>
     </main>
     <footer class="navbar-box">
       <ul class="navbar-box-content">
@@ -39,12 +35,12 @@
             <img class="home" alt="HOME" src="./assets/blackhome.png" />
           </a>
         </li>
-        <li class="active_site">
+        <li class="inactive">
           <a href="bookmark.html">
             <img class="bookicon" alt="BOOKMARK" src="./assets/gebookmared.png"
           /></a>
         </li>
-        <li class="inactive">
+        <li class="active_site">
           <a href="form.html">
             <img class="add" alt="ADD" src="./assets/plus.png"
           /></a>

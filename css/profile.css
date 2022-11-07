@@ -43,7 +43,7 @@ h2 {
   padding: 10px;
   background-color: aquamarine;
 }
-main {
+.normal-body {
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: azure;
@@ -65,4 +65,5 @@ main {
 
 .darkmode {
   background-color: black;
+  color: red;
 }
