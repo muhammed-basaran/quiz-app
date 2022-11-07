@@ -11,3 +11,6 @@
 .card-question {
   margin-bottom: 30px;
 }
+.answer-hidden {
+  visibility: hidden;
+}

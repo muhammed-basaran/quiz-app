@@ -12,51 +12,55 @@
     <header>
       <h1>QUIZ APP</h1>
     </header>
-    <main data-js="main">
+    <main data-js="main" class="normal-body dark-body">
       <section class="card">
         <img
           class="bookmark"
           src="./assets/bookmark.png"
           alt="B"
-          data-js="card-ookmark-icon"
+          data-js="card-bookmark-icon"
         />
         <p class="card-question">What proberty flips the axes in flexbox?</p>
-        <button class="toggle-button-show" data-js="show-button">
-          Show Answer
-        </button>
-        <p class="card-answer" data-js="answer" hidden>flex-direction</p>
+        <button class="toggle-button-show" data-js="show-button">SHOW</button>
+        <p class="card-answer answer-hidden" data-js="answer">flex-direction</p>
         <p class="tags">#html #flexbox #css</p>
       </section>
       <section class="card">
-        <img class="bookmark" src="./assets/bookmark.png" alt="B" />
+        <img
+          class="bookmark"
+          src="./assets/bookmark.png"
+          alt="B"
+          data-js="card-bookmark-icon"
+          id="bookmark"
+        />
         <p class="card-question">What proberty flips the axes in flexbox?</p>
-        <button class="toggle-button-show" data-js="show-button">
-          Show Answer
-        </button>
-        <p class="card-answer" data-js="answer" hidden>flex-direction</p>
-        <p class="card-tags">#html #flexbox #css</p>
+        <button class="toggle-button-show" data-js="show-button">SHOW</button>
+        <p class="card-answer answer-hidden" data-js="answer">flex-direction</p>
+        <p class="tags">#html #flexbox #css</p>
       </section>
       <section class="card">
         <img
           class="bookmark"
           src="./assets/bookmark.png"
           alt="B"
-          data-js="card-ookmark-icon"
+          data-js="card-bookmark-icon"
         />
-
         <p class="card-question">What proberty flips the axes in flexbox?</p>
-        <button class="toggle-button-show" data-js="show-button">
-          Show Answer
-        </button>
-        <p class="card-answer" data-js="answer" hidden>flex-direction</p>
-        <p class="card-tags">#html #flexbox #css</p>
+        <button class="toggle-button-show" data-js="show-button">SHOW</button>
+        <p class="card-answer answer-hidden" data-js="answer">flex-direction</p>
+        <p class="tags">#html #flexbox #css</p>
       </section>
       <section class="card">
-        <img class="bookmark" src="./assets/bookmark.png" alt="B" />
+        <img
+          class="bookmark"
+          src="./assets/bookmark.png"
+          alt="B"
+          data-js="card-bookmark-icon"
+        />
         <p class="card-question">What proberty flips the axes in flexbox?</p>
-        <button id="toggle-button-show" class="button-hide">Hide Answer</button>
-        <p class="card-answer" data-js="answer" hidden>flex-direction</p>
-        <p class="card-tags">#html #flexbox #css</p>
+        <button class="toggle-button-show" data-js="show-button">SHOW</button>
+        <p class="card-answer answer-hidden" data-js="answer">flex-direction</p>
+        <p class="tags">#html #flexbox #css</p>
       </section>
     </main>
     <footer class="navbar-box">
@@ -69,6 +73,11 @@
         <li class="inactive">
           <a href="bookmark.html">
             <img class="bookicon" alt="BOOKMARK" src="./assets/gebookmared.png"
+          /></a>
+        </li>
+        <li class="inactive">
+          <a href="form.html">
+            <img class="add" alt="ADD" src="./assets/plus.png"
           /></a>
         </li>
         <li class="inactive">
