@@ -12,18 +12,31 @@
     <header>
       <h1>QUIZ APP</h1>
     </header>
-    <main data-js="main" class="normal-body dark-body add">
+    <main data-js="main" class="normal-body dark-body" id="main">
+      <h2 class="title-form">ADD YOUR IDEAS</h2>
       <section class="first-area">
         <label class="label-your-question" for="question">Your Question:</label>
 
-        <textarea class="your-question" name="question"> jjjjjhhhhgg</textarea>
+        <textarea
+          class="your-question"
+          name="question"
+          maxlength="150"
+          required
+        >
+jjjjjhhhhgg</textarea
+        >
       </section>
       <section class="second-area">
-        <label class="label-your-answer" for="yanswer">Your Answer:</label>
-        <textarea class="your-answer" name="yanswer">jfgghjjgkgf</textarea>
+        <label class="label-your-answer" for="yanswer" maxlength="150"
+          >Your Answer:</label
+        >
+        <textarea class="your-answer" name="yanswer" maxlenght="150" required>
+ jfgghjjgkgf </textarea
+        >
       </section>
       <section class="third-area">
-        <input type="text" class="input-text" />
+        <label for="tags" class="label-for-your-tags">Tags: </label>
+        <input type="text" name="tags" class="input-text" required />
       </section>
 
       <button class="submit-button" type="submit">Submit</button>
@@ -47,6 +60,11 @@
         </li>
         <li class="inactive">
           <a href="profile.html">
+            <img class="profile" alt="PROFILE" src="./assets/blackprofil.jpeg"
+          /></a>
+        </li>
+        <li class="inactive">
+          <a href="test.html">
             <img class="profile" alt="PROFILE" src="./assets/blackprofil.jpeg"
           /></a>
         </li>

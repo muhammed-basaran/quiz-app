@@ -1,23 +1,23 @@
-.add {
+#main {
   position: relative;
+  overflow-y: scroll;
 }
-
-.submit-button {
-  margin-bottom: 100px;
-  height: 40px;
-  width: 100px;
+.title-form {
+  position: absolute;
+  top: 80px;
+  left: 130px;
 }
 
 .first-area {
   border: 8px solid red;
   position: relative;
-  top: 100px;
+  top: 170px;
 }
 .your-question {
   background-color: white;
   position: absolute;
   border: 3px solid black;
-  border-radius: 20px;
+  border-radius: 10px;
   top: 40px;
   width: 25rem;
   height: 4rem;
@@ -27,18 +27,19 @@
   position: absolute;
   top: 15px;
   left: 40px;
+  font-size: 20px;
 }
 .second-area {
   border: 8px solid green;
   position: relative;
-  top: 210px;
+  top: 280px;
 }
 
 .your-answer {
   background-color: white;
   position: absolute;
   border: 3px solid black;
-  border-radius: 20px;
+  border-radius: 10px;
   top: 40px;
   width: 25rem;
   height: 4rem;
@@ -49,20 +50,121 @@
   position: absolute;
   top: 15px;
   left: 40px;
+  font-size: 20px;
 }
 
 .third-area {
   border: 8px solid blue;
   position: relative;
-  bottom: -320px;
+  bottom: -390px;
 }
 .input-text {
   background-color: white;
   position: absolute;
   border: 3px solid black;
-  border-radius: 20px;
+  border-radius: 10px;
   top: 40px;
-  width: 25rem;
-  height: 4rem;
-  left: 30px;
+  width: 20rem;
+  height: 2rem;
+  left: 75px;
+}
+
+.label-for-your-tags {
+  position: absolute;
+  top: 15px;
+  left: 80px;
+  font-size: 20px;
+}
+
+.submit-button {
+  width: 100px;
+  height: 40px;
+  border: 2px solid black;
+  position: absolute;
+  right: 200px;
+  bottom: 50px;
+  cursor: pointer;
+}
+.title-form1 {
+  position: relative;
+  top: 70px;
+  width: 280px;
+  left: 80px;
+}
+
+.text {
+  margin: 80px 50px 0 50px;
+
+  padding: 10px;
+  background-color: white;
+  position: relative;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 350px;
+  height: 30px;
+}
+
+.label-question {
+  margin: 0;
+
+  position: relative;
+  top: 70px;
+  left: 60px;
+  background-color: red;
+
+  border: 2px solid black;
+}
+
+.text1 {
+  margin: 30px 50px 0 50px;
+
+  padding: 10px;
+  background-color: white;
+  position: relative;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 350px;
+  height: 30px;
+}
+.label-answer {
+  margin: 0;
+
+  position: relative;
+  top: 20px;
+  left: 60px;
+  background-color: red;
+
+  border: 2px solid black;
+}
+
+.text2 {
+  margin: 30px 50px 0 50px;
+
+  background-color: white;
+  position: relative;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 350px;
+  height: 20px;
+}
+
+.label-tags {
+  margin: 0;
+
+  position: relative;
+  bottom: -20px;
+  left: 60px;
+  background-color: red;
+
+  border: 2px solid black;
+}
+
+.submit-button1 {
+  width: 100px;
+  height: 40px;
+  border: 2px solid black;
+  position: relative;
+  top: 30px;
+  left: 180px;
+  cursor: pointer;
 }
