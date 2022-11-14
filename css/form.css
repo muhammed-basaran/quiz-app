@@ -1,0 +1,73 @@
+.title-form1 {
+  position: relative;
+  top: 70px;
+  width: 280px;
+  left: 50px;
+  margin: 40px;
+}
+
+.text {
+  margin: 80px 50px 0 50px;
+
+  padding: 10px;
+  background-color: white;
+  position: relative;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 350px;
+  height: 30px;
+}
+
+.label-question {
+  margin: 0;
+
+  position: relative;
+  top: 70px;
+  left: 60px;
+}
+
+.text1 {
+  margin: 30px 50px 0 50px;
+  padding: 10px;
+  background-color: white;
+  position: relative;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 350px;
+  height: 30px;
+}
+.label-answer {
+  margin: 0;
+
+  position: relative;
+  top: 20px;
+  left: 60px;
+}
+
+.text2 {
+  margin: 30px 50px 0 50px;
+  background-color: white;
+  position: relative;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 365px;
+  padding: 5px;
+}
+
+.label-tags {
+  margin: 0;
+
+  position: relative;
+  bottom: -20px;
+  left: 60px;
+}
+
+.submit-button1 {
+  width: 100px;
+  height: 40px;
+  border: 2px solid black;
+  position: relative;
+  top: 30px;
+  left: 180px;
+  cursor: pointer;
+}
